@@ -191,6 +191,7 @@ a:hover{
     }
     .dummy-text{
         width: auto;
+        margin-top: 30px;
 
     }
     .left{
@@ -207,12 +208,15 @@ a:hover{
     }
     .input{
         text-align: left;
-        width: 70%;
+        width: auto;
         font-size: 0.9em;
+        justify-content: center;
+        align-items: center;
     }
     input{
         font-size: 0.9rem;
         height: 1.5rem;
+        width: 70vw;
     }
     .button,
     .log-in{
@@ -222,5 +226,8 @@ a:hover{
     }
     button{
         margin-bottom: 0px;
+        width: 60vw;
+        padding: 10px 5px;
     }
+
 }
